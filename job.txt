@@ -1,0 +1,1 @@
+I want a calendar-esque app that will track how much each brother owes for dues. The app will send brothers reminders when their payment is coming up. The app also needs to keep the dates and amounts of payments private to only the individual brother and the VP of Finance (me)

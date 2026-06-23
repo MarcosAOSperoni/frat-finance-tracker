@@ -1,0 +1,21 @@
+# Firebase / sensitive credentials
+GoogleService-Info.plist
+google-services.json
+
+# macOS
+.DS_Store
+
+# Flutter build artifacts
+**/build/
+**/.dart_tool/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/.packages
+**/.pub-cache/
+**/.pub/
+**/doc/api/
+
+# Environment
+.env
+.env.local
+.env.production

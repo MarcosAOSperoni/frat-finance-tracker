@@ -1,0 +1,19 @@
+Just shipped a Flutter app for a fraternity's VP of Finance — built end-to-end in 4 weeks.
+
+The problem: tracking dues for 20+ brothers across multiple semesters was being done manually in spreadsheets. Payments were missed, reminders were forgotten, and the VP had no visibility.
+
+What I built:
+- Role-based access (brothers vs. VP of Finance)
+- Invitation-based onboarding for new brothers
+- Dues periods with per-brother payment plans (up to 10 installments, auto-scheduled)
+- Real-time payment tracking with a calendar view
+- Push notifications for payment reminders — personalized per brother ("You owe $X due on [date]")
+- Admin panel for the VP: record payments, manage brothers, delete dues with full cascade
+
+Tech stack: Flutter + Supabase (PostgreSQL, Auth, Edge Functions) + Firebase Cloud Messaging + Riverpod
+
+The backend was just as interesting as the frontend — Row Level Security policies in Postgres to enforce that brothers can only see their own data, database triggers to auto-update payment totals, and Edge Functions for FCM push notifications using the v1 API with JWT OAuth2.
+
+Freelance client work has forced me to think beyond just writing code — scoping, deadlines, and delivering something someone actually relies on week to week.
+
+Happy to chat if you're building something similar or want to talk Flutter/Supabase architecture.
